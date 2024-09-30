@@ -4,7 +4,7 @@ import "./App.css";
 
 const SearchBar = ({ onSearch }) => {
   const [city, setCity] = useState("");
-
+  //search
   const handleSearch = () => {
     onSearch(city);
   };
